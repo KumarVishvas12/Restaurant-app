@@ -1,0 +1,22 @@
+.res-card{
+    width: 20rem;
+    height: 18rem;
+  margin: 10px  5px;
+  border: 1px solid transparent;
+}
+.res-card:hover{
+    border: 1px solid rgb(229, 227, 227);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 330ms ease-in-out;
+    
+}
+.res-card-img{
+    width: 20rem;
+    height: 12rem;
+    border-radius: 5px ;
+}
+.rating{
+    display: flex;
+    gap: 8 px;
+}

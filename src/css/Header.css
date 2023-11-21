@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+}
+.logo{
+    height: 90px;
+
+   
+}
+.nav-items{
+    margin-right: 100px;
+    border: 1px solid black;
+}
+.nav-items > ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.nav-items > ul > li{
+    padding: 10px;
+
+}
+.nav-items > ul > li:hover{
+color: aqua;
+cursor: pointer;
+}
