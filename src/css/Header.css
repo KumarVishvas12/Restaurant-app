@@ -11,7 +11,7 @@
 }
 .nav-items{
     margin-right: 100px;
-    border: 1px solid black;
+   
 }
 .nav-items > ul{
     display: flex;
